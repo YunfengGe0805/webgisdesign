@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 5A</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Question 5A</h1>
+    <hr>
+    <p>How would you like your coffee?</p>
+
+    <input type="checkbox" id="cream" name="cream">
+    <label for="cream">With cream</label><br>
+
+    <input type="checkbox" id="sugar" name="sugar">
+    <label for="sugar">With Sugar</label><br>
+
+    <button onclick="checkOrder()">Send order</button>
+
+    <p id="order"></p>
+
+    <script src="script05a.js"></script>
+</body>
+</html>

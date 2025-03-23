@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mytable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+
+        .time-slot {
+            background-color: #99ccff;
+            font-weight: bold;
+        }
+
+        .sunday, .saturday {
+            background-color: #b0e2ff;
+        }
+
+        .orange {
+            background-color: #e67e22;
+            color: white;
+            font-weight: bold;
+        }
+
+        .course-info-table {
+            margin-top: 20px;
+        }
+
+        .course-info-table td {
+            border: none;
+            padding: 5px;
+            text-align: left;
+        }
+
+        /* Specific class colors */
+        .webgis {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .spatial-statistics {
+            background-color: #9b59b6;
+            color: white;
+        }
+
+        .drones {
+            background-color: #f1c40f;
+            color: #333;
+        }
+
+        .programming {
+            background-color: #e74c3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="8" class="orange">My 2025 Class Time Table</th>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+                <th class="sunday">Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th class="saturday">Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" class="time-slot">08:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">09:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">10:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">11:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">12:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">13:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="spatial-statistics">Spatial Statistics</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="spatial-statistics">Spatial Statistics</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">14:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="spatial-statistics">Spatial Statistics</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="spatial-statistics">Spatial Statistics</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">15:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="spatial-statistics">Spatial Statistics</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">16:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">17:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">18:30</td>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS</td>
+                <td>&nbsp;</td>
+				<td>&nbsp;</td>
+                <td class="drones">Drones and Data Collection</td>
+                <td class="programming">Programming for Geospatial Data</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="drones">Drones and Data Collection</td>
+                <td class="programming">Programming for Geospatial Data</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">19:30</td>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="drones">Drones and Data Collection</td>
+                <td class="programming">Programming for Geospatial Data</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="drones">Drones and Data Collection</td>
+                <td class="programming">Programming for Geospatial Data</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">20:30</td>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="drones">Drones and Data Collection</td>
+                <td class="programming">Programming for Geospatial Data</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS lab</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="programming">Programming Lab</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">21:30</td>
+                <td>&nbsp;</td>
+                <td class="webgis">WebGIS lab</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="programming">Programming Lab</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="time-slot">22:30</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="course-info-table">
+        <tbody>
+            <tr>
+                <td style="vertical-align: top; width: 38%;">Course Code:</td>
+                <td style="width: 62%;">
+                    GEOG7311 Web GIS<br>
+                    COMP7890 Spatial Database
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

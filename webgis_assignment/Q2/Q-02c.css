@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Databases</title>
+body {
+    background-color: #F8F8F8; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+}
+
+li.database {
+    background-image: url('database.png'); 
+    background-repeat: no-repeat; 
+    background-position: 0px 2px; 
+    padding-left: 20px; 
+    margin-top: 15px; 
+}
+
+li {
+    background-image: url('table.png'); 
+    background-repeat: no-repeat; 
+    background-position: 0px 2px; 
+    padding-left: 20px; 
+}

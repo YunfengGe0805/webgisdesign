@@ -1,0 +1,16 @@
+span.requiredfield {
+	color:red;
+	margin-left:0.25em;
+}
+
+span.mylabel {
+	margin-left:0.5em;
+}
+
+body {
+    background-color: LemonChiffon;
+    background-image: url('spn_eths.gif');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

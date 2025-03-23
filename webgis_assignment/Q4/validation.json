@@ -1,0 +1,34 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('pointform');
+    
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const ptName = document.querySelector('input[name="ptName"]').value.trim();
+        const ptNorth = parseFloat(document.querySelector('input[name="ptNorth"]').value.trim());
+        const ptEast = parseFloat(document.querySelector('input[name="ptEast"]').value.trim());
+        const remark = document.querySelector('textarea[name="remark"]').value.trim();
+        
+        if (ptName === '') {
+            alert('Please fill in all required fields.');
+            return;
+        }
+		
+        if (isNaN(ptNorth)) {
+            alert('Please fill in all required fields.');
+            return;
+        }
+		
+        if (isNaN(ptEast)) {
+            alert('Please fill in all required fields.');
+            return;
+        }
+        
+        if (!(ptNorth >= 800000 && ptNorth <= 848000 && ptEast >= 800000 && ptEast <= 860000)) {
+            alert('Coordinates must be within the Hong Kong region.');
+            return;
+        }
+        
+        alert('All required fields are entered correctly!');
+    });
+});
